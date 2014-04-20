@@ -1,4 +1,4 @@
-body {
+html, body {
 	background-color: hsl(0, 0%, 22%);
 	color: hsl(0,0%, 55%);
 	font-family: 'Nixie One', cursive;
