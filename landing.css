@@ -1,0 +1,57 @@
+body {
+	background-color: hsl(0, 0%, 22%);
+	color: hsl(0,0%, 55%);
+	font-family: 'Nixie One', cursive;
+	min-width: 615px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: hsl(150,100%, 80%);
+}
+
+#pimped {
+	text-align: center;
+	font-size: 4rem;
+	width: 60%;
+	margin-left: 20%;
+	padding-bottom: 20px;
+	border-bottom: 1px solid white;
+}
+
+#choose {
+	text-align: center;
+	margin-top: 1%;
+	color: hsl(150,100%,80%);
+}
+
+#links {
+	width: 60%;
+	margin: 2% 20%;
+}
+
+#links a {
+	width: 33%;
+	float: left;
+	text-align: center;
+	font-size: 2rem;
+}
+
+@media (max-width: 850px) { 
+
+	#pimped {
+		width: 100%;
+		margin: 0;
+	}
+	
+	#links a {
+		width: 100%;
+		padding-bottom: 5%;
+		display: block;
+		float: none;
+	}
+}
