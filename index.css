@@ -1,0 +1,103 @@
+html, body {
+	background-color: hsl(0, 0%, 22%);
+	color: hsl(0,0%, 55%);
+	font-family: 'Nixie One', cursive;
+	min-width: 615px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*		IDs		*/
+
+#container {
+	width: 850px;
+	margin: 0 auto;
+}
+
+#title {
+	width: 100%;
+	margin: 0 auto;
+	padding: 60px 0 50px;
+	border-bottom: 1px solid white;
+	text-align: left;
+}
+
+#choose {
+	text-align: center;
+	margin-top: 1%;
+	color: hsl(150,100%,80%);
+}
+
+#links {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#robot {
+	margin: 1%;
+}
+
+/*		Utility Classes 		*/
+.u-hover-green:hover, .u-link:hover {
+	color: hsl(150,100%, 80%);
+}
+
+.u-center {
+	text-align: center;
+}
+
+.u-inline {
+	display: inline-block;
+}
+
+.u-label-small {
+	font-size: 2em;
+}
+
+.u-label-large {
+	font-size: 4rem;
+}
+
+.u-link-title {
+	font-size: 2em;
+	margin: 20px 0 10px;
+	border-bottom: 1px solid rgba(255,255,255,.05);
+}
+
+.u-link {
+	width: 48%;
+}
+
+.robot-popup {
+	position: absolute;
+	background-image: url("images/popup.png");
+	background-size: cover;
+	visibility: hidden;
+	width: 150px;
+	height: 126px;
+	text-align: center;
+}
+
+.robot-popup-text {
+	padding: 30px 20px;
+}
+
+@media (max-width: 850px) { 
+
+	#title {
+		width: 100%;
+		margin: 0;
+	}
+
+	#links {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	.u-link {
+		width: 100%;
+	}
+}
