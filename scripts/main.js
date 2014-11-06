@@ -22,6 +22,10 @@
         robot.addListener("head", function() {
             robot.scare();
         });
+
+        setTimeout(function() {
+            robot.tickle(4);
+        }, 3000);
     });
 
 }());
